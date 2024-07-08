@@ -21,6 +21,8 @@ jobs:
           distribution: 'adopt'
           java-version: '17'
 
+      - name: Grant execute permission for gradlew
+        run: chmod +x ./gradlew
       - name: Run tests with Gradle
         run: ./gradlew clean test
       - name: Copy History
