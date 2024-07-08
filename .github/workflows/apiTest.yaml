@@ -24,7 +24,7 @@ jobs:
       - name: Grant execute permission for gradlew
         run: chmod +x ./gradlew
       - name: Run tests with Gradle
-        run: ./gradlew test
+        run: ./gradlew :ApiTest:test
       - name: Copy History
         uses: actions/checkout@v2
         if: always()
