@@ -22,7 +22,7 @@ jobs:
           java-version: '17'
 
       - name: Run tests with Gradle
-        run: ./gradle test
+        run: ./gradlew clean test
       - name: Copy History
         uses: actions/checkout@v2
         if: always()
