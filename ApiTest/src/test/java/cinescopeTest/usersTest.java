@@ -38,13 +38,8 @@ public class usersTest {
 
         userApiService.registerUser(user)
                 .shouldHave(Conditions.statusCode(201))
-                //.asPojo(UserRegistryResponse.class);
-                //response.getId();
                 .shouldHave(new BodyFieldCondition("id",not(emptyString())));
-                //.then().log().all()
-                //.assertThat()
-                //.statusCode(201)
-                //.body("id",not(isEmptyString()));
+
 
     }
 
