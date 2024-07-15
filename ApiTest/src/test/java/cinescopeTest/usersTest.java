@@ -5,7 +5,6 @@ import com.github.javafaker.Faker;
 import conditions.BodyFieldCondition;
 import conditions.Conditions;
 import io.restassured.RestAssured;
-import org.aeonbits.owner.Config;
 import org.aeonbits.owner.ConfigFactory;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
@@ -61,12 +60,4 @@ public class usersTest {
 
     }
 
-    @Config.Sources({"classpath:config.properties"})
-    public static interface ProjectConfig extends Config {
-
-        String baseUrl();
-
-        @DefaultValue("en")
-        String locale();
-    }
 }
