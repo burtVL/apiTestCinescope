@@ -1,6 +1,7 @@
 package assertions;
 
 import io.qameta.allure.Step;
+import io.qameta.allure.internal.shadowed.jackson.core.TreeNode;
 import io.restassured.response.Response;
 import conditions.Condition;
 import lombok.RequiredArgsConstructor;
@@ -18,6 +19,7 @@ public class AssertableResponse {
     public <T> T asPojo(Class<T> tClass){
         return response.as(tClass);
     }
+
 
 
 }

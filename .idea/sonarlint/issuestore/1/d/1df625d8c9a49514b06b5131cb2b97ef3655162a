@@ -1,5 +1,7 @@
 
 Ñ
-java:S3577"ˆRename class "usersTest" to match the regular expression: '^((Test|IT)[a-zA-Z0-9_]+|[A-Z][a-zA-Z0-9_]*(Test|Tests|TestCase|IT|ITCase))$'(ÆÜ·‹ûÿÿÿÿ8ëÖÓ±‹2J$dde2157d-0a46-4d92-9609-3d881baa3d14
+java:S3577"ˆRename class "usersTest" to match the regular expression: '^((Test|IT)[a-zA-Z0-9_]+|[A-Z][a-zA-Z0-9_]*(Test|Tests|TestCase|IT|ITCase))$'(ÆÜ·‹ûÿÿÿÿ8æÝ…µ‹2J$0150329f-a53f-4655-8e1c-a93d92edb9ed
 f
-java:S5786"Remove this 'public' modifier.(ÆÜ·‹ûÿÿÿÿ8ëÖÓ±‹2J$332fd35e-064a-43b4-9f42-46c01c54396f
+java:S5786"Remove this 'public' modifier.(ÆÜ·‹ûÿÿÿÿ8æÝ…µ‹2J$223cac71-42da-474f-9d12-3aafe7c83aaa
+‘
+java:S1128"IRemove this unused import 'java.nio.channels.ConnectionPendingException'.(ý«äöýÿÿÿÿ8·‚Æç‹2J$be03beb0-39aa-4cee-b2c6-1b5d169fd95b

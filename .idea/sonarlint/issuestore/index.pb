@@ -36,20 +36,10 @@ X
 gradlew,5\b\5bbfa66edb4db3c7c33c5181f43510990d3307f9
 N
 .github/workflows/apiTest.yaml,2\4\24babf3e0f2820025e959ce732102f9196f7958d
-J
-ApiTest/ProjectConfig.java,0\e\0ede5f93f12746413fa45397d0335b19f020068a
-N
-ApiTest/src/ProjectConfig.java,c\4\c4254476cd0b4ab56c446b10571a0038f995d220
-S
-#ApiTest/src/main/ProjectConfig.java,8\b\8b1c6aa98b781bd5b4a077b36a2fb14c0e08f55b
-X
-(ApiTest/src/main/java/ProjectConfig.java,0\7\0710f7d74aff0a4f702422d4df53a2c62c1e1484
 f
 6ApiTest/src/test/java/cinescopeTest/ProjectConfig.java,c\3\c37fe3c407d5a5fd4ffd88e1a58f0e61b95b4eb1
 S
 #.idea/sonarlint/issuestore/index.pb,9\f\9fe84ebb15faf917b7def6236dba604453cc61e0
-Å
-Q.idea/sonarlint/securityhotspotstore/8/b/8b1c6aa98b781bd5b4a077b36a2fb14c0e08f55b,8\a\8a4def52a03b454bb420ada1096fc73336666f3f
 Å
 Q.idea/sonarlint/securityhotspotstore/a/d/ade5082abe72f69d20e216256cbb04687c99fe7a,2\5\25accce55c922f0a77945886b3f998c67f6745ff
 w
@@ -86,8 +76,6 @@ w
 G.idea/sonarlint/issuestore/8/a/8ab6762e93b8254f6fea6579ade06f0d259c7374,f\a\faf421eee717fc1a989f3db841423156fda277f6
 Å
 Q.idea/sonarlint/securityhotspotstore/5/b/5bc249f0fabdd43dd80d92a9cabacbc0e8f9e4a7,b\b\bbefdd276ae5a5f31a2869004603cf65fb4bb9e5
-w
-G.idea/sonarlint/issuestore/0/e/0ede5f93f12746413fa45397d0335b19f020068a,1\3\13355fafdf12ebd7ed1c69c22a7f99bcc1f6345f
 Å
 Q.idea/sonarlint/securityhotspotstore/1/d/1df625d8c9a49514b06b5131cb2b97ef3655162a,7\0\703eeefc4b55e4203d6124336bff5a8166e78f64
 Å
@@ -95,15 +83,9 @@ Q.idea/sonarlint/securityhotspotstore/1/c/1c751f34caf0b19b668124fe39e0c678dcfd07
 w
 G.idea/sonarlint/issuestore/f/b/fbe448ebfc3eb2d4e308f6b8b043666f5b57235e,5\2\52114fdaa426e9b83a3c5df4e11c4f0ebbcd814b
 Å
-Q.idea/sonarlint/securityhotspotstore/c/4/c4254476cd0b4ab56c446b10571a0038f995d220,4\c\4c536a6b91f1369ee28e009104bab11b9b1f2400
-Å
 Q.idea/sonarlint/securityhotspotstore/d/6/d6e9d44f6816fd5d780e3685a5d2c21da7a60f6c,b\7\b79418836257560aaea6b5549f801b738acf4952
 Å
-Q.idea/sonarlint/securityhotspotstore/0/e/0ede5f93f12746413fa45397d0335b19f020068a,6\d\6dc560859889b7ae9134d9d505f0197a7b152de2
-Å
 Q.idea/sonarlint/securityhotspotstore/f/a/fa4af47807f75bbe3a51f589addcc251aa893ef8,f\8\f8db882f80052425bfc0f95a15e4c06e3cb05395
-w
-G.idea/sonarlint/issuestore/c/4/c4254476cd0b4ab56c446b10571a0038f995d220,4\d\4d4cf6e082c84fe8ead4a8322124e375af71d63e
 w
 G.idea/sonarlint/issuestore/2/a/2a45a911a8f1836b0b6c5b758962572012d8f8c3,9\a\9aed88f31eac276604c6355c1adcc0bce1f80fd6
 Å
