@@ -1,17 +1,10 @@
 package cinescopeTest;
 
 import cinescopeApi.payload.UserPayload;
-import com.github.javafaker.Faker;
 import conditions.BodyFieldCondition;
 import conditions.Conditions;
-import io.restassured.RestAssured;
-import org.aeonbits.owner.ConfigFactory;
-import org.junit.jupiter.api.BeforeAll;
+import io.qameta.allure.Allure;
 import org.junit.jupiter.api.Test;
-import services.UserApiService;
-
-import java.nio.channels.ConnectionPendingException;
-import java.util.Locale;
 
 import static com.codeborne.selenide.Condition.visible;
 import static com.codeborne.selenide.Selenide.$;
@@ -19,17 +12,20 @@ import static com.codeborne.selenide.Selenide.open;
 import static org.hamcrest.Matchers.*;
 
 
-public class usersTest {
+public class usersTest extends baseTest {
 
-    private final UserApiService userApiService = new UserApiService();
-    private static Faker faker;
+    // Пока оставил, не понимаю для чего именно новый сетод если есть testCanRegisterNewUser()
+    /*@Test
+    void createNewUser() {
+        UserPayload user = new UserPayload()
+                .email(faker.internet().emailAddress())
+                .fullName(faker.name().fullName())
+                .password("acHlCgV0")
+                .passwordRepeat("acHlCgV0");
 
-    @BeforeAll
-    static void setUp() {
-        ProjectConfig config = ConfigFactory.create(ProjectConfig.class, System.getProperties());
-        faker = new Faker(new Locale(config.locale()));
-        RestAssured.baseURI = config.baseUrl();
+
     }
+*/
 
     @Test
     void testCanRegisterNewUser() {
@@ -41,11 +37,16 @@ public class usersTest {
 
         userApiService.registerUser(user)
                 .shouldHave(Conditions.statusCode(201))
-                .shouldHave(new BodyFieldCondition("id",not(emptyString())));
+                .shouldHave(response -> {
+                    response.then()
+                            .assertThat()
+                            .body("id", matchesRegex("^[0-9a-fA-F-]{36}$"));
 
-
-
+                })
+                .extractId();// в этом тесте я хотел проверить что id при решистрации нужного формата и потом записываю его, вот только как его использовать в дальнейшем
     }
+
+
 
     @Test
     void testCanLoginWithRegisteredUser() {
@@ -58,7 +59,13 @@ public class usersTest {
 
         userApiService.registerUser(user)
                 .shouldHave(Conditions.statusCode(201))
-                .shouldHave(new BodyFieldCondition("id", not(emptyString())));
+                //.shouldHave(new BodyFieldCondition("id", not(emptyString())));
+                .shouldHave(response -> {
+                    response.then()
+                            .assertThat()
+                            .body("id", matchesRegex("^[0-9a-fA-F-]{36}$"));
+
+                });
 
         // Open the login page
         open("https://dev-cinescope.store/login");

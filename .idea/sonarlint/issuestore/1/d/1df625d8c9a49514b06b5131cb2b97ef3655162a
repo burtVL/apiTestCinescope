@@ -1,7 +1,9 @@
 
-Ñ
-java:S3577"ˆRename class "usersTest" to match the regular expression: '^((Test|IT)[a-zA-Z0-9_]+|[A-Z][a-zA-Z0-9_]*(Test|Tests|TestCase|IT|ITCase))$'(ÆÜ·‹ûÿÿÿÿ8æİ…µ‹2J$0150329f-a53f-4655-8e1c-a93d92edb9ed
-f
-java:S5786"Remove this 'public' modifier.(ÆÜ·‹ûÿÿÿÿ8æİ…µ‹2J$223cac71-42da-474f-9d12-3aafe7c83aaa
-‘
-java:S1128"IRemove this unused import 'java.nio.channels.ConnectionPendingException'.(ı«äöıÿÿÿÿ8·‚Æç‹2J$be03beb0-39aa-4cee-b2c6-1b5d169fd95b
+Ë
+java:S3577"ˆRename class "usersTest" to match the regular expression: '^((Test|IT)[a-zA-Z0-9_]+|[A-Z][a-zA-Z0-9_]*(Test|Tests|TestCase|IT|ITCase))$'(èº§T8´úû2J$ba7b0c09-82a2-4813-9581-7d51568a3d72
+`
+java:S5786"Remove this 'public' modifier.(èº§T8´úû2J$40015831-a5ed-4663-97a3-ed5853ef70e7
+~	java:S125"<This block of commented-out lines of code should be removed.(•ÁŠ¡8´úû2J$ad38127f-178e-4d4b-a5be-6acb05b9cfff
+~	java:S125>"<This block of commented-out lines of code should be removed.(Ä¶Üà8´úû2J$902c3503-b339-49d4-9e94-6d14a6fcf424
+|
+java:S1128"4Remove this unused import 'io.qameta.allure.Allure'.(ºœ†Äüÿÿÿÿ8´úû2J$92bf1c92-6f21-4664-9572-df8c569b617b

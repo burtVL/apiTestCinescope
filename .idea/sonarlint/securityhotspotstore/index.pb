@@ -94,3 +94,5 @@ w
 G.idea/sonarlint/issuestore/5/b/5bbfa66edb4db3c7c33c5181f43510990d3307f9,f\7\f7819ea138c33fec28e7e536cb2de34db38fc121
 Å
 Q.idea/sonarlint/securityhotspotstore/5/b/5bbfa66edb4db3c7c33c5181f43510990d3307f9,1\e\1e45613b6060de813dc92caeb118e08a2124bc35
+a
+1ApiTest/src/test/java/cinescopeTest/baseTest.java,2\f\2f4d656c48b518963e1ed6431b03221ff790f47c

@@ -1,5 +1,6 @@
 package assertions;
 
+import io.qameta.allure.Allure;
 import io.qameta.allure.Step;
 import io.qameta.allure.internal.shadowed.jackson.core.TreeNode;
 import io.restassured.response.Response;
@@ -19,7 +20,18 @@ public class AssertableResponse {
     public <T> T asPojo(Class<T> tClass){
         return response.as(tClass);
     }
+    @Step("Extract value from response path: {path}")
+    public <T> T extractPath(String path) {
+        return response.path(path);
+    }
 
+    @Step("Extract id from response: {id}")
+    public String extractId() {
+        String id = extractPath("id");
+        // Логируем извлеченный id
+        Allure.addAttachment("Extracted ID", id);
+        return id;
+    }
 
 
 }
