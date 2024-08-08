@@ -1,5 +1,6 @@
 package assertions;
 
+import conditions.Conditions;
 import io.qameta.allure.Allure;
 import io.qameta.allure.Step;
 import io.qameta.allure.internal.shadowed.jackson.core.TreeNode;
@@ -16,6 +17,11 @@ public class AssertableResponse {
     public AssertableResponse shouldHave(Condition condition){
             condition.check(response);
             return this;
+    }
+    @Step("api response should have status code 201")
+    public AssertableResponse isStatusOk(){
+        Conditions.statusCode(201).check(response);
+        return this;
     }
     public <T> T asPojo(Class<T> tClass){
         return response.as(tClass);

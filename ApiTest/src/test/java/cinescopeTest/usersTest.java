@@ -25,7 +25,7 @@ public class usersTest extends baseTest {
                 .passwordRepeat("v0?#tuXA");
 
        String userId = userApiService.registerUser(user)
-                .shouldHave(Conditions.statusCode(201))
+               .isStatusOk()
                 .shouldHave(response -> {
                     response.then()
                             .assertThat()
@@ -54,7 +54,7 @@ public class usersTest extends baseTest {
                 .passwordRepeat("v0?#tuXA");
 
         userApiService.registerUser(user)
-                .shouldHave(Conditions.statusCode(201))
+                .isStatusOk()
                 .shouldHave(new BodyFieldCondition("id",not(emptyString())));
 
         userApiService.registerUser(user)
