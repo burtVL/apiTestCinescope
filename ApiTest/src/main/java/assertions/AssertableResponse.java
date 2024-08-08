@@ -28,9 +28,10 @@ public class AssertableResponse {
     @Step("Extract id from response: {id}")
     public String extractId() {
         String id = extractPath("id");
+        String prefixedId = "ID: " + id;
         // Логируем извлеченный id
-        Allure.addAttachment("Extracted ID", id);
-        return id;
+        Allure.addAttachment("Extracted ID", prefixedId);
+        return prefixedId;
     }
 
 

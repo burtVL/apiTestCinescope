@@ -1,8 +1,7 @@
 
 Ë
-java:S3577"ˆRename class "usersTest" to match the regular expression: '^((Test|IT)[a-zA-Z0-9_]+|[A-Z][a-zA-Z0-9_]*(Test|Tests|TestCase|IT|ITCase))$'(èº§T8½ÃïŒ“2J$4f8382c4-fd27-4463-95b7-f03b7a032ed0
+java:S3577"ˆRename class "usersTest" to match the regular expression: '^((Test|IT)[a-zA-Z0-9_]+|[A-Z][a-zA-Z0-9_]*(Test|Tests|TestCase|IT|ITCase))$'(èº§T8çœ…‘“2J$81a7acd8-93a7-457a-9ab8-f6d1e3ba9784
 `
-java:S5786"Remove this 'public' modifier.(èº§T8½ÃïŒ“2J$291cfb52-9467-4aac-b08a-9e8da49a8090
-~	java:S1252"<This block of commented-out lines of code should be removed.(Ä¶Üà8½ÃïŒ“2J$a304158f-e937-4cb9-8f92-24971ee46147
+java:S5786"Remove this 'public' modifier.(èº§T8öœ…‘“2J$6dff7a48-76fb-4a6a-8a7c-44fff29e8bc7
 |
-java:S1128"4Remove this unused import 'io.qameta.allure.Allure'.(ºœ†Äüÿÿÿÿ8šë“2J$9d12972e-be27-4f1b-93b2-30dc41b48dc5
+java:S1128"4Remove this unused import 'io.qameta.allure.Allure'.(ºœ†Äüÿÿÿÿ8­ ¶‘“2J$05f5ea59-d5ca-4ebd-acd4-caa73d6556d1
