@@ -14,21 +14,9 @@ import static org.hamcrest.Matchers.*;
 
 public class usersTest extends baseTest {
 
-    // Пока оставил, не понимаю для чего именно новый сетод если есть testCanRegisterNewUser()
-    /*@Test
-    void createNewUser() {
-        UserPayload user = new UserPayload()
-                .email(faker.internet().emailAddress())
-                .fullName(faker.name().fullName())
-                .password("acHlCgV0")
-                .passwordRepeat("acHlCgV0");
-
-
-    }
-*/
 
     @Test
-    void testCanRegisterNewUser() {
+    void createNewUser() {
         UserPayload user = new UserPayload()
                 .email(faker.internet().emailAddress())
                 .fullName(faker.name().fullName())
