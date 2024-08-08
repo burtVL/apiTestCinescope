@@ -96,3 +96,7 @@ G.idea/sonarlint/issuestore/5/b/5bbfa66edb4db3c7c33c5181f43510990d3307f9,f\7\f7
 Q.idea/sonarlint/securityhotspotstore/5/b/5bbfa66edb4db3c7c33c5181f43510990d3307f9,1\e\1e45613b6060de813dc92caeb118e08a2124bc35
 a
 1ApiTest/src/test/java/cinescopeTest/baseTest.java,2\f\2f4d656c48b518963e1ed6431b03221ff790f47c
+Z
+*ApiTest/src/test/java/pages/LoginPage.java,4\8\48e270f48c4d844a01a8434b6a166ead0328489d
+\
+,ApiTest/src/test/java/pages/ProfilePage.java,8\3\83b066449287e07440e63f95109f214233555fc3

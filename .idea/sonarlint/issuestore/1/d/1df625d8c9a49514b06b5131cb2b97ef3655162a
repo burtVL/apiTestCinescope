@@ -1,7 +1,5 @@
 
 Ë
-java:S3577"ˆRename class "usersTest" to match the regular expression: '^((Test|IT)[a-zA-Z0-9_]+|[A-Z][a-zA-Z0-9_]*(Test|Tests|TestCase|IT|ITCase))$'(èº§T8çœ…‘“2J$81a7acd8-93a7-457a-9ab8-f6d1e3ba9784
+java:S3577"ˆRename class "usersTest" to match the regular expression: '^((Test|IT)[a-zA-Z0-9_]+|[A-Z][a-zA-Z0-9_]*(Test|Tests|TestCase|IT|ITCase))$'(èº§T8¬ˆ•“2J$7fc1b862-39ba-489b-81c0-3e06b74c9199
 `
-java:S5786"Remove this 'public' modifier.(èº§T8öœ…‘“2J$6dff7a48-76fb-4a6a-8a7c-44fff29e8bc7
-|
-java:S1128"4Remove this unused import 'io.qameta.allure.Allure'.(ºœ†Äüÿÿÿÿ8­ ¶‘“2J$05f5ea59-d5ca-4ebd-acd4-caa73d6556d1
+java:S5786"Remove this 'public' modifier.(èº§T8¬ˆ•“2J$422794ce-8d1a-4cba-b3a9-1858534d4f79
