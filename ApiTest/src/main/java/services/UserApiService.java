@@ -15,4 +15,12 @@ public class UserApiService extends ApiService {
                 .post("register"));
 
     }
+
+    @Step
+    public AssertableResponse authorizeUser(UserPayload user) {
+        return new AssertableResponse(setup()
+                .body(user)
+                .when()
+                .post("authorize"));
+    }
 }

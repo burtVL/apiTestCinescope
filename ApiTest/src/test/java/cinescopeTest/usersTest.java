@@ -62,4 +62,18 @@ public class usersTest extends baseTest {
 
     }
 
+    /* @Test
+    void authorizeUser() {
+        UserPayload user = new UserPayload()
+                .email("user@example.com")
+                .password("password123"); /
+
+        String token = userApiService.authorizeUser(user)
+                .isStatusOk()
+                .extractValue("token");
+
+
+        System.setProperty("authToken", token);
+    }*/
+
 }

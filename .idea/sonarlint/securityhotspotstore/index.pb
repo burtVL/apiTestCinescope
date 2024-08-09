@@ -100,3 +100,7 @@ Z
 *ApiTest/src/test/java/pages/LoginPage.java,4\8\48e270f48c4d844a01a8434b6a166ead0328489d
 \
 ,ApiTest/src/test/java/pages/ProfilePage.java,8\3\83b066449287e07440e63f95109f214233555fc3
+Z
+*ApiTest/src/main/java/pages/LoginPage.java,1\5\155abd0d283c35e70cca177ab4715468f3abf88c
+\
+,ApiTest/src/main/java/pages/ProfilePage.java,a\5\a542f9f14199ee0b998cb629c98daa5b28858e09
